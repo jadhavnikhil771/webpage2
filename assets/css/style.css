@@ -180,18 +180,22 @@ footer .copy{
     }
     footer .links, footer .fllow, footer .copy{
         float: none;
+        width: 100%;
         text-align: justify;
-        display: ;
     }
-   }
+    }
    @media screen and (max-width:547px){
     header{
        padding: 0px;
     }
     }
     @media screen and (max-width:345px){
-    header{
+    header {
         line-height: normal;
-        }
+        padding: 5px;
+    }
+    nav {
+        padding: 2px 0px;
+    }
     }
 /* Media Section End */
